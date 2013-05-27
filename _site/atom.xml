@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>blog.codenugget.net</title>
+ <link href="http://b00gizm.github.io/" rel="self"/>
+ <link href="http://b00gizm.github.io"/>
+ <updated>2013-05-27T21:55:57+02:00</updated>
+ <id>http://b00gizm.github.io</id>
+ <author>
+   <name>Pascal Cremer</name>
+   <email>b00gizm [at] gmail [dot] com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Why Php</title>
+   <link href="http://b00gizm.github.io/rant/2013/01/26/why-php"/>
+   <updated>2013-01-26T00:00:00+01:00</updated>
+   <id>http://b00gizm.github.io/rant/2013/01/26/why-php</id>
+   <content type="html">&lt;p&gt;&lt;a href='http://nicolas.perriault.net'&gt;Nicolas Perriault&lt;/a&gt;, creator of the famous &lt;a href='http://casperjs.org/'&gt;Casper.js&lt;/a&gt; framework (written in Javascript), today published an &lt;a href='https://nicolas.perriault.net/code/2013/why_javascript/'&gt;article on his blog&lt;/a&gt;, where he likely responded to the &lt;a href='https://twitter.com/jcoglan/status/294884058121510912'&gt;ongoing Javascript bashing on the interwebs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8220;Yep, Javascript — like many other programming languages probably — is one you have to learn three times to be proficient with it. The first time, to hate it. The second time, to start appreciating it. The third time, to understand it and get shit actually done.&amp;#8221;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I found this article quite interesting. Not only, because I agree on every single sentence of this article, but also because you can easily swap &amp;#8220;PHP&amp;#8221; for (almost) every occurence of &amp;#8220;Javascript&amp;#8221; in his article - even if some people might not want to realize that.&lt;/p&gt;
+
+&lt;p&gt;PHP (like Javascript) also has it (many many) quirks, mostly because of its language inconsistencies. And yes, you can write awful code in PHP like you can do in Javascript, because of its low entry barrier: You don&amp;#8217;t have to compile stuff, you don&amp;#8217;t have to setup a complex build system and you certainly can &amp;#8220;deploy&amp;#8221; a PHP app by simply dragging and dropping files from your desktop to an FTP server.&lt;/p&gt;
+
+&lt;p&gt;But that doesn&amp;#8217;t mean that you can write good code or have a vibrant and exciting ecosystem (like Javascript does). Take a look at &lt;a href='http://symfony.com/'&gt;Symfony&lt;/a&gt;, or, more precisely, the &lt;a href='http://symfony.com/components'&gt;Symfony Components&lt;/a&gt;. If you&amp;#8217;re a PHP developer and don&amp;#8217;t know what I&amp;#8217;m speaking about - stop reading now and learn how to use them! They&amp;#8217;re like a PHP developer&amp;#8217;s swiss (or frech, if you will) army knife.&lt;/p&gt;
+
+&lt;p&gt;Some of the oldest (hence most hated) PHP projcts like &lt;a href='http://drupal.org/'&gt;Drupal&lt;/a&gt; or &lt;a href='https://www.phpbb.de/'&gt;phpBB&lt;/a&gt; already have or are about to integrate them, making their codebase better, one commit at a time.&lt;/p&gt;
+
+&lt;p&gt;Then, there are really mind-blowing projects like &lt;a href='http://reactphp.org/'&gt;ReactPHP&lt;/a&gt; by &lt;a href='https://twitter.com/igorwesome'&gt;Igor Wiedler&lt;/a&gt; who is bringing some of Node.js&amp;#8217; non-blocking and event-driven magic to the PHP world.&lt;/p&gt;
+
+&lt;p&gt;What about dependency management? We got you covered! Take a look at &lt;a href='http://getcomposer.org/'&gt;Composer&lt;/a&gt;, a project that took the PHP world almost by storm, even though it&amp;#8217;s still in alpha and definitly has its problems and rough edges. It&amp;#8217;s so ubiquitous that even Sebastian Bergmann gave in and made &lt;a href='http://www.phpunit.de'&gt;PHPUnit&lt;/a&gt; &lt;a href='http://www.phpunit.de/manual/current/en/installation.html'&gt;compatibe with Composer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Speaking of PHPUnit: Today&amp;#8217;s PHP community really cares for code quality - and that&amp;#8217;s a great thing! I&amp;#8217;m not talking &lt;a href='http://en.wikipedia.org/wiki/Test-driven_development'&gt;TDD&lt;/a&gt; and unit testing alone, but also &lt;a href='http://en.wikipedia.org/wiki/Behavior-driven_development'&gt;BDD&lt;/a&gt; with tools like &lt;a href='http://behat.org/'&gt;Behat&lt;/a&gt; or &lt;a href='http://www.phpspec.net/'&gt;phpspec&lt;/a&gt;, both developed and co-developed by &lt;a href='https://twitter.com/everzet'&gt;Konstantin Kudryashov&lt;/a&gt; (a true asset for the whole community).&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s recap by citing another part of Nicolas&amp;#8217; article:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Is &lt;strong&gt;PHP&lt;/strong&gt; a usable language? Yes.&lt;/li&gt;
+
+&lt;li&gt;Is &lt;strong&gt;PHP&lt;/strong&gt; suited for all possible usages? Nope.&lt;/li&gt;
+
+&lt;li&gt;Do you have to continuously rant about it? Probably not.&lt;/li&gt;
+
+&lt;li&gt;Do you have to troll &amp;amp; mock people doing &lt;strong&gt;PHP&lt;/strong&gt;? Stop doing that now.&lt;/li&gt;
+
+&lt;li&gt;Do you have to learn &lt;strong&gt;PHP&lt;/strong&gt; before criticizing it? Definitely.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(See what I did here..?)&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8220;In the meanwhile, &lt;strong&gt;PHP&lt;/strong&gt; is the language of the Web &lt;span&gt;&amp;#8230;&lt;/span&gt;. There are better languages, there are worse. One thing is crystal clear: great, innovative &amp;amp; useful stuff can be achieved with it, you may want to be part of the move.&amp;#8221;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(&amp;#8230;and again here..?)&lt;/p&gt;
+
+&lt;p&gt;PHP (like Javascript) isn&amp;#8217;t perfect. In some ways, it&amp;#8217;s not even good - and yes, we know about that. Javascript had its resurrection through the rise of Node.js. Today&amp;#8217;s cool kids &lt;a href='http://venturebeat.com/2011/11/28/node-is-one-of-the-cool-kids-now/'&gt;are jumping off the Rails-train to build their new fancy-pants startup ideas around Express and Node.js&lt;/a&gt;. Most of them are too young to know that the language they&amp;#8217;re using underneath was not even considered a real (or at least serious) programming language 10-15 years ago.&lt;/p&gt;
+
+&lt;p&gt;But yes, you can build innovative, useful and inspiring things with Javascript - as you can do with PHP.&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>
