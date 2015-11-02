@@ -1,0 +1,38 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.keywords }}" />
+    <meta name="author" content="Pascal Cremer" />
+
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:image" content="{{ "/img/logo-m.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    {% if page.title %}
+    <meta property="og:type" content="article" />
+    {% endif %}
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+
+    <meta property="profile:first_name" content="Pascal" />
+    <meta property="profile:last_name" content="Cremer" />
+    <meta property="profile:username" content="b00gizm" />
+    <meta property="profile:gender" content="male" />
+
+    {% if page.title %}
+    <meta property="article:published_time" content="{{ page.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}" />
+    <meta property="article:modified_time" content="{{ page.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}" />
+    {% for tag in page.tags %}
+    <meta property="article:tag" content="{{ tag }}" />
+    {% endfor %}
+    {% endif %}
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600'>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>

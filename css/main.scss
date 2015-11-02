@@ -1,0 +1,63 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: 'Source Sans Pro', Helvetica, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.6;
+
+$code-font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+$code-font-size:   14px;
+
+$spacing-unit:     30px;
+
+$text-color:       #0F1A20;
+$background-color: #FFFFFF;
+$brand-color:      #FF312E;
+
+$grey-color:       #333533;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin circle-avatar($url, $size) {
+  width: $size;
+  height: $size;
+  background-size: $size $size;
+  background: rgba(100,100,100,0.1) url($url);
+  -webkit-border-radius: $size;
+  -moz-border-radius: $size;
+  -ms-border-radius: $size;
+  -o-border-radius: $size;
+  border-radius: $size;
+  border-bottom: 1px solid rgba(255,255,255,0.8);
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.3);
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;

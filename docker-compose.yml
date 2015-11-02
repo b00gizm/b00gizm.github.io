@@ -1,0 +1,7 @@
+web:
+  build: .
+  command: jekyll serve --watch --drafts --force_polling
+  volumes:
+    - .:/app
+  ports:
+    - "4040:4000"
