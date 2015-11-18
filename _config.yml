@@ -2,9 +2,11 @@
 title: CodeNugget
 keywords: "blog, tech, apple, mobile, dev, development, ios, web, nodejs, swift, objective-c, cocoa"
 description: > # this means to ignore newlines until "baseurl:"
+  Hi. I'm Pascal. I work as a senior developer at <a href="http://chefkoch.de">Chefkoch.de</a>, Europe's biggest 
+  cooking platform, and this is my persional blog "Codenugget".
+  
   CodeNugget is all about web and mobile (iOS) development, workflow automation,
-  interesting bits of tech news, and the overall digital lifestyle. Written
-  and maintained by Pascal Cremer.
+  interesting bits of tech news, and the overall digital lifestyle.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://codenugget.co" # the base hostname & protocol for your site
 email: hello@codenugget.co
