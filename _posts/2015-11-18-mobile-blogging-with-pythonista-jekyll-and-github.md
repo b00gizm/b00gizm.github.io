@@ -43,6 +43,10 @@ You want see this as a GIF? Sure you do ;)
 
 ![mobile-blogger.gif](https://raw.githubusercontent.com/b00giZm/b00gizm.github.io/master/uploads/mobile-blogger.gif)
 
+**Update 11/19/2015: Added the full video**
+
+<iframe src="https://player.vimeo.com/video/146140447" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 Feel free to fork, use and/or improve my script as you like. 
 
 To be honest, I'd really appreciate, if you would send suggestions on how to improve it. Since I have no real Python background, it currently might not be the most idiomatic Python code on the planet (and it's, by no means, anything near feature complete, since you currently can only create new posts and not push updates).
