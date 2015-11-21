@@ -43,9 +43,7 @@ You want see this as a GIF? Sure you do ;)
 
 ![mobile-blogger.gif](https://raw.githubusercontent.com/b00giZm/b00gizm.github.io/master/uploads/mobile-blogger.gif)
 
-**Update 11/19/2015: Added the full video**
-
-{% vimeo 146140447 %}
+**Update 11/19/2015: Added the full video ([Link](https://vimeo.com/146140447))**
 
 Feel free to fork, use and/or improve my script as you like. 
 
