@@ -45,7 +45,7 @@ You want see this as a GIF? Sure you do ;)
 
 **Update 11/19/2015: Added the full video**
 
-<iframe src="https://player.vimeo.com/video/146140447" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% vimeo 146140447 %}
 
 Feel free to fork, use and/or improve my script as you like. 
 
