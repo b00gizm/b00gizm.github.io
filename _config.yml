@@ -14,7 +14,7 @@ github_username:  b00gizm
 ga_id: UA-37998016-1
 
 # Build settings
-markdown: redcarpet
+kramdown: redcarpet
 exclude: ['Gemfile', 'Gemfile.lock', 'vendor', 'puppet']
 
 # Redcarpet
