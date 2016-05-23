@@ -179,7 +179,7 @@ sonos-http-api         1/1       Running   0          10s
 
 Try to access the `zones` API endpoint in your browser by directly pointing it to your RPI's IP address with port `5005`:
 
-![Screenshot]()
+![Screenshot](https://raw.githubusercontent.com/b00giZm/b00gizm.github.io/master/uploads/sonos-home-day01.png)
 
 So let's review what we did today: We took a "vanilla" RPI and transformed it into a single node Kubernetes cluster running a fully-fledged HTTP API to access and control the Sonos speakers on our local network. Not that bad for a start.
 
