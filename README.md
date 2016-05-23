@@ -1,6 +1,6 @@
 # b00gizm.github.io
 
-The code that powers the CodeNugget blog
+The code that powers the CodeNugget blog.
 
 ## Maintainer
 
