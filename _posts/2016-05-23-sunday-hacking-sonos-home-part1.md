@@ -4,6 +4,7 @@ title:      "Sunday Hacking: Sonos Home (Part 1)"
 author:     Pascal Cremer
 date:       2016-05-23 18:27:14
 tags:       sonos raspberrypi docker kubernetes devops http api
+published:  true
 ---
 I'm really intrigued by IoT devices like the [Amazon Echo](http://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E) or, most recently, [Google Home](https://home.google.com/) from this year's [Google I/O](https://events.google.com/io2016/). The idea of talking to a device and saying, "Play my morning playlist in the kitchen!" would be a nerd's dream come true for me. But since I live in Germany, I've just given up hope being able to buy one of those devices in the near future (or waiting for Apple to make something comparable).
 
