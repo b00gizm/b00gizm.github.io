@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Sunday Hacking: Sonos Home (Part 1)
+title:      "Sunday Hacking: Sonos Home (Part 1)"
 author:     Pascal Cremer
 date:       2016-05-23 18:27:14
 tags:       sonos raspberrypi docker kubernetes devops http api
