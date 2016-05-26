@@ -89,14 +89,12 @@ Last week, I stubled across the awesome [node-sonos-http-api](https://github.com
 
 So here's my customized version, which uses the [`hypriot/rpi-node`](https://hub.docker.com/r/hypriot/rpi-node/) image as base:
 
-```Docker
+```
 FROM hypriot/rpi-node:6.1-slim
 MAINTAINER Pascal Cremer "b00gizm@gmail.com"
 
 ENV GIT_TAG=master
 ENV GIT_SOURCE="https://github.com/jishi/node-sonos-http-api/archive/${GIT_TAG}.zip"
-
-{% gist cc704ba2a96e4a319e9e %}[^gist]
 
 RUN apt-get update \
     && apt-get install -yq --no-install-recommends \
