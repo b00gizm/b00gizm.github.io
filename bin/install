@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+docker run -it \
+    --rm \
+    -v ${DIR}/..:/app \
+    -v ${DIR}/../.bundle:/usr/local/bundle \
+  b00gizm/jekyll bundle install
