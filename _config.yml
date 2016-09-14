@@ -2,9 +2,9 @@
 title: CodeNugget
 keywords: "blog, tech, apple, mobile, dev, development, ios, web, nodejs, swift, objective-c, cocoa"
 description: > # this means to ignore newlines until "baseurl:"
-  Hi. I'm Pascal. I work as a senior developer at Chefkoch.de, Europe's biggest 
-  cooking platform, and this is my personal blog. 'Codenugget' is all about web and 
-  mobile (iOS) development, workflow automation, interesting bits of tech news, 
+  Hi. I'm Pascal. I work as a senior developer at Chefkoch.de, Europe's biggest
+  cooking platform, and this is my personal blog. 'Codenugget' is all about web and
+  mobile (iOS) development, workflow automation, interesting bits of tech news,
   and the overall digital lifestyle.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://codenugget.co" # the base hostname & protocol for your site
@@ -14,14 +14,23 @@ github_username:  b00gizm
 ga_id: UA-37998016-1
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'vendor', 'puppet']
+
+# Kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Redcarpet
 redcarpet:
   extensions: [
     'footnotes'
   ]
+
+# Gems
+gems:
+  - jekyll-gist
 
 # Defaults
 defaults:

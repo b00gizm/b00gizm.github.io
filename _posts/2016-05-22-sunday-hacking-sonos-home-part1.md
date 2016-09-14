@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      Sunday Hacking: Sonos Home (Part 1)
+title:      "Sunday Hacking: Sonos Home (Part 1)"
 author:     Pascal Cremer
-date:       2016-05-23 18:27:14
+date:       2016-05-22 18:27:14
 tags:       sonos raspberrypi docker kubernetes devops http api
+published:  true
 ---
-
 I'm really intrigued by IoT devices like the [Amazon Echo](http://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E) or, most recently, [Google Home](https://home.google.com/) from this year's [Google I/O](https://events.google.com/io2016/). The idea of talking to a device and saying, "Play my morning playlist in the kitchen!" would be a nerd's dream come true for me. But since I live in Germany, I've just given up hope being able to buy one of those devices in the near future (or waiting for Apple to make something comparable).
 
 I've got all those [Sonos](http://www.sonos.com/) speakers scattered around the house and, even though not officially supported, there are ways to access the controller's API. So let's get our hands dirty and build our own Echo/Home device for controlling Sonos with our voice.
@@ -89,14 +89,12 @@ Last week, I stubled across the awesome [node-sonos-http-api](https://github.com
 
 So here's my customized version, which uses the [`hypriot/rpi-node`](https://hub.docker.com/r/hypriot/rpi-node/) image as base:
 
-```Docker
+```
 FROM hypriot/rpi-node:6.1-slim
 MAINTAINER Pascal Cremer "b00gizm@gmail.com"
 
 ENV GIT_TAG=master
 ENV GIT_SOURCE="https://github.com/jishi/node-sonos-http-api/archive/${GIT_TAG}.zip"
-
-{% gist cc704ba2a96e4a319e9e %}[^gist]
 
 RUN apt-get update \
     && apt-get install -yq --no-install-recommends \
@@ -180,7 +178,7 @@ sonos-http-api         1/1       Running   0          10s
 
 Try to access the `zones` API endpoint in your browser by directly pointing it to your RPI's IP address with port `5005`:
 
-![Screenshot]()
+![Screenshot](https://raw.githubusercontent.com/b00giZm/b00gizm.github.io/master/uploads/sonos-home-day01.png)
 
 So let's review what we did today: We took a "vanilla" RPI and transformed it into a single node Kubernetes cluster running a fully-fledged HTTP API to access and control the Sonos speakers on our local network. Not that bad for a start.
 

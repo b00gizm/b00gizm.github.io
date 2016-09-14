@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+docker run -it \
+    --rm \
+    -v ${DIR}/..:/app \
+    -v ${DIR}/../.bundle:/usr/local/bundle \
+    -p 4000:4000 \
+  b00gizm/jekyll ${@}
