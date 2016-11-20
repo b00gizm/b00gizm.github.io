@@ -20,7 +20,7 @@ So, I came up with two small Python scripts which do exactly that: Pushing new c
 
 {% gist 66e014395bfc89bb8b70d375beb3c334 %}[^gist]
 
-They're really simple, as you can see. Depending on an `argv` parameter, the `update_repo` script builds URLs for either writing or reading file changes, and launches the Working Copy app. For writing, Working Copy will present a view where you can enter your commit message and choose to either save (`git add`), commit, or commit and push. For `reading`, it will pull changes from the remote repositry, applies them locally and returns file's new contents via `x-success` parameter back to Pythonista, where `update_script` is called to update the script file.
+They're really simple, as you can see. Depending on an `argv` parameter, the `update_repo` script builds URLs for either writing or reading file changes, and launches the Working Copy app. For writing, Working Copy will present a view where you can enter your commit message and choose to either save (`git add`), commit, or commit and push. For `reading`, it will pull changes from the remote repository, applies them locally and returns file's new contents via `x-success` parameter back to Pythonista, where `update_script` is called to update the script file.
 
 ![Working Copy and Pythonista on iPad](https://raw.githubusercontent.com/b00giZm/b00gizm.github.io/master/uploads/workingcopy-ipad.gif)
 
@@ -28,4 +28,4 @@ They're really simple, as you can see. Depending on an `argv` parameter, the `up
 
 There are obvious limitations like the fact that you cannot easily update all your scripts at once, and that "local" changes are vicouisly overwritten, but at least it's something ;)
 
-If you believe Apple CEO Tim Cook, [the iPad is the future of computing](http://www.telegraph.co.uk/technology/2016/01/21/apples-tim-cook-declares-the-end-of-the-pc-and-hints-at-new-medi/). It might be for him, but for someone like me it still seems quite far away, though I'd love giving up my MacBook Pro for an iPad Pro, if I only was able to get my work done on it. 2016 wasn't the year for that, but small improvements like these make me a little more confident that we'll get there some day.
+If you believe Apple CEO Tim Cook, [the iPad _is_ the future of computing](http://www.telegraph.co.uk/technology/2016/01/21/apples-tim-cook-declares-the-end-of-the-pc-and-hints-at-new-medi/). It might be for him, but for someone like me it still seems quite far away, though I'd love giving up my MacBook Pro for an iPad Pro, if I only was able to get my work done on it. 2016 wasn't the year for that, but small improvements like these make me a little more confident that we'll get there some day.
