@@ -6,9 +6,9 @@ date:       2016-12-18 16:35:34
 tags:       ios opportunity development chefkoch
 ---
 
-*(Lies [hier](https://dayone.me/2J4lza4) die [deutsche Übersetzung](https://dayone.me/2J4lza4) des Artikels)*
-
 ![Hello iOS](https://raw.githubusercontent.com/b00giZm/b00gizm.github.io/master/uploads/one-more-thing01.jpg)
+
+*(Lies [hier](https://dayone.me/2J4lza4) die [deutsche Übersetzung](https://dayone.me/2J4lza4) des Artikels)*
 
 If a year would consist of only the months from January to November, 2016 wouldn't have had ranked that high on my personal list of awesome years. But the month of December just came along with a very special surprise, which led to a (hopefully) well-deserved happy end: *After a little more than 10 years working as web developer and DevOps engineer, I'll be joining the Chefkoch mobile team as full time iOS developer as of March 2017.*
 
@@ -27,7 +27,7 @@ I'm really sad about leaving my current team in a couple of weeks, but, first an
 Thanks everyone for all the confidence you're putting in me. Let me close with a quote of [ATP](http://atp.fm/) podcaster [Casey Liss](https://twitter.com/caseyliss), [who chose a similar path for his professional life](https://www.caseyliss.com/2016/2/8/alloc-init) in February 2016:
 
 > It’s time to throw caution to the wind. It’s time to be brave. It’s time to step away from the safety net.
-
+>
 > Let’s do this.
 
 We will .
