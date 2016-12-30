@@ -8,7 +8,7 @@ published:  true
 ---
 ![Elm Logo](https://raw.githubusercontent.com/b00giZm/b00gizm.github.io/master/uploads/elm-logo.png)
 
-For me, the days between Christmas and NYE are usually the perfect time to browse through the items of my [Todoist](https://todoist.com) and choose something I can finally invest some time in. This year, I've decided to learn something about [Elm](elm-lang.org). Elm has been popping up in my Twitter stream quite regularly throughout the year with people singing nothing but praises of it.
+For me, the days between Christmas and NYE are usually the perfect time to browse through the items of my [Todoist](https://todoist.com) and choose something I can finally invest some time in. This year, I've decided to learn something about [Elm](http://elm-lang.org). Elm has been popping up in my Twitter stream quite regularly throughout the year with people singing nothing but praises of it.
 
 So, what exactly is Elm?
 
