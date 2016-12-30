@@ -34,7 +34,7 @@ Here's a simple example for a function that adds two `Int` values:
 ```elm
 add: Int -> Int -> Int
 add x y = 
-	x + y
+  x + y
 ```
 
 The first line is a type annotation which tells you that `add` is a function that takes two `Int` values as arguments and returns an `Int`. The following lines are the actual function definition. Notice that there's no explicit `return` statement, since we're in a pure functional context without any side effects. Here's how you call the function:
