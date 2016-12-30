@@ -141,7 +141,7 @@ main =
 
 The `main` function triggers the execution of our Elm app. It moves our `player` to new position and puts it's [string representation](http://package.elm-lang.org/packages/elm-lang/core/5.0.0/Basics#toString) as text into the DOM, which results in
 
-```
+```elm
 { pos = { x = 1, y = 1 }, kind = Lifeform 100 }
 ``` 
 
