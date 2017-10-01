@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "How to Master The Tech Interview in These Easy Steps"
+title:      "How to Master the Tech Interview in These Easy Steps"
 author:     Pascal Cremer
 date:       2017-10-01 07:14:45
 tags:       it job recruiting tech interview
